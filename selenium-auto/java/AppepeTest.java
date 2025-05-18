@@ -59,7 +59,7 @@ public class AppepeTest {
         campoPara.sendKeys("example@proton.me");
 
         WebElement campoAsunto = driver.findElement(By.xpath("//input[@data-testid='composer:subject']"));
-        campoAsunto.sendKeys("Asubto");
+        campoAsunto.sendKeys("Asunto");
 
      // Tabular al editor
         campoAsunto.sendKeys(Keys.TAB);
